@@ -1,0 +1,4 @@
+base_model_name: HuggingFaceTB/SmolLM-135M-Instruct
+adapter_dir_prefix: lora_adapter
+lora_rank: 16
+lora_alpha: 32
