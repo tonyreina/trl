@@ -41,6 +41,7 @@ bitsandbytes = ">=0.49.1,<0.50"
 datasets = ">=4.4.2,<5"
 flash-attn = ">=2.8.3,<3"
 trl = ">=0.26.2,<0.27"
+mlflow = ">=3.8,<4"
 
 [feature.cuda.tasks]
 
