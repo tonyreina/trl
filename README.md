@@ -16,7 +16,7 @@ on medical reasoning tasks using:
   \- Lightweight base model
 
 > [!IMPORTANT]
-> **Chain of Thought (CoT):** SmolLM2-135M-Instruct does not have chain
+> **Chain of Thought (CoT):** SmolLM2-135M-Instruct **does not** have chain
 > of thought (CoT) reasoning, but I chose it because it was a very small
 > model that could be fine-tuned on this dataset in a few hours.
 
