@@ -37,6 +37,23 @@ jobs:
         run: |
           pixi run -e docs jupyter-book build .
 
+      - name: List build output
+        run: |
+          ls -la
+          if [ -d "_build" ]; then
+            echo "Contents of _build:"
+            ls -la _build/
+            if [ -d "_build/html" ]; then
+              echo "Build successful - _build/html exists"
+            else
+              echo "Error: _build exists but _build/html does not"
+              exit 1
+            fi
+          else
+            echo "Error: _build directory not found"
+            exit 1
+          fi
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

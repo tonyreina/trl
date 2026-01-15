@@ -5,9 +5,21 @@ title: TRL Medical Reasoning
 author: Tony Reina
 logo: ""
 
+# Exclude patterns
+exclude_patterns:
+  - _build
+  - .pixi
+  - __pycache__
+  - "*.pyc"
+  - .git
+  - .github
+  - mlruns
+  - results
+  - lora_adapter
+
 # Force re-execution of notebooks on each build
 execute:
-  execute_notebooks: auto
+  execute_notebooks: off
 
 # Define the repository information
 repository:
