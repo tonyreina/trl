@@ -12,7 +12,8 @@ on medical reasoning tasks using:
 - **TRL** - Transformers Reinforcement Learning library for supervised
   fine-tuning
 - **LoRA** - Low-Rank Adaptation for memory-efficient training
-- **SmolLM2-135M-Instruct** - Lightweight base model
+- [**SmolLM2-135M-Instruct**](https://huggingface.co/HuggingFaceTB/SmolLM-135M-Instruct)
+  \- Lightweight base model
 
 > [!IMPORTANT]
 > **Chain of Thought (CoT):** SmolLM2-135M-Instruct does not have chain
