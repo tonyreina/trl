@@ -14,7 +14,7 @@ on medical reasoning tasks using:
 - **LoRA** - Low-Rank Adaptation for memory-efficient training
 - **SmolLM2-135M-Instruct** - Lightweight base model
 
-!!! info
+!!! important "Chain of Thought (CoT)"
     SmolLM2-135M-Instruct does not have chain of thought (CoT)
     reasoning, but I chose it because it was a very small
     model that could be fine-tuned on this dataset in a few hours.
@@ -26,7 +26,7 @@ on medical reasoning tasks using:
 - `results/` - Training checkpoints and model artifacts
 - `lora_adapter/` - Saved LoRA adapters
 
-!!! info
+!!! important "Training UI"
     The training logs are sent to [MLFlow](https://mlflow.org).
     During training you can start the MLFlow
     server locally by running `pixi run -e cuda mlflow ui`.
