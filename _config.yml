@@ -1,0 +1,34 @@
+# Jupyter Book Configuration
+# Learn more at https://jupyterbook.org/customize/config.html
+
+title: TRL Medical Reasoning
+author: Tony Reina
+logo: ""
+
+# Force re-execution of notebooks on each build
+execute:
+  execute_notebooks: auto
+
+# Define the repository information
+repository:
+  url: https://github.com/tonyreina/trl
+  path_to_book: ""
+  branch: main
+
+# Add GitHub buttons to your book
+html:
+  use_issues_button: true
+  use_repository_button: true
+
+# Launch button configuration
+launch_buttons:
+  notebook_interface: "jupyterlab"
+  binderhub_url: ""
+
+# Information about where the book exists on the web
+# parse:
+#   myst_enable_extensions:
+#     - dollarmath
+#     - amsmath
+#     - deflist
+#     - colon_fence

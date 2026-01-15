@@ -1,0 +1,10 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: README
+chapters:
+  - file: trl_medical_reasoning_training
+    title: Medical Reasoning Training
+  - file: trl_medical_reasoning_inference
+    title: Medical Reasoning Inference
