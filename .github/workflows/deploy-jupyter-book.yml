@@ -35,7 +35,7 @@ jobs:
 
       - name: Build Jupyter Book
         run: |
-          pixi run jupyter-book build .
+          pixi run -e docs jupyter-book build .
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
