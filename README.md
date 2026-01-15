@@ -26,7 +26,7 @@ on medical reasoning tasks using:
 - `results/` - Training checkpoints and model artifacts
 - `lora_adapter/` - Saved LoRA adapters
 
-> [!IMPORTANT]
+> [!TIP]
 > **Training UI:** The training logs are sent to [MLFlow](https://mlflow.org).
 > During training you can start the MLFlow server locally by running
 > `pixi run -e cuda mlflow ui`. The UI will be at `https://localhost:5000`
