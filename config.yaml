@@ -4,5 +4,5 @@ training_results_dir: results
 lora_rank: 16
 lora_alpha: 32  # Usually double the rank
 batch_size: 4
-epochs_to_train: 5
+epochs_to_train: 1
 max_output_length: 1024
