@@ -1,8 +1,8 @@
-base_model_name: HuggingFaceTB/SmolLM2-135M-Instruct
+base_model_name: microsoft/Phi-4-mini-instruct  # HuggingFaceTB/SmolLM2-135M-Instruct or microsoft/Phi-4-mini-instruct
 adapter_dir_prefix: lora_adapter
 training_results_dir: results
 lora_rank: 16
 lora_alpha: 32  # Usually double the rank
 batch_size: 4
-epochs_to_train: 1
+epochs_to_train: 4
 max_output_length: 1024
